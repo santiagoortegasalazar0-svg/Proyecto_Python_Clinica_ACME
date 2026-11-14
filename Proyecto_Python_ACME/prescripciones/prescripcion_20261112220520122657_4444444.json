@@ -1,0 +1,25 @@
+{
+    "fecha": "2026-11-12T22:05:20-05:00",
+    "paciente": {
+        "identificacion": "4444444",
+        "nombres": "s",
+        "apellidos": "d"
+    },
+    "medico": {
+        "identificacion": "1096702050",
+        "nombres": "angel",
+        "apellidos": "ortega"
+    },
+    "sintomas": [
+        "tos"
+    ],
+    "diagnostico": "tos",
+    "medicamentos": [
+        {
+            "medicamento": "acetaminofen",
+            "cantidad": "5",
+            "dosis": "3",
+            "tiempo_aplicacion_dias": 12
+        }
+    ]
+}

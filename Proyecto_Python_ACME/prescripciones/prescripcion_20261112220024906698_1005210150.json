@@ -1,0 +1,28 @@
+{
+    "fecha": "2026-11-12T22:00:24-05:00",
+    "paciente": {
+        "identificacion": "1005210150",
+        "nombres": "santiago",
+        "apellidos": "ortega"
+    },
+    "medico": {
+        "identificacion": "1096702050",
+        "nombres": "angel",
+        "apellidos": "ortega"
+    },
+    "sintomas": [
+        "tos fiebre dolor de estomago",
+        "fiebre",
+        "fiebre",
+        "mucha fiebre"
+    ],
+    "diagnostico": "fiebre",
+    "medicamentos": [
+        {
+            "medicamento": "acetaminofen",
+            "cantidad": "10",
+            "dosis": "2",
+            "tiempo_aplicacion_dias": 12
+        }
+    ]
+}

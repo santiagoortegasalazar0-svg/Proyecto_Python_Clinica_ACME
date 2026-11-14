@@ -1,0 +1,26 @@
+{
+    "fecha": "2026-11-13T19:46:06-05:00",
+    "paciente": {
+        "identificacion": "11111111",
+        "nombres": "sss",
+        "apellidos": "ssss"
+    },
+    "medico": {
+        "identificacion": "1111111",
+        "nombres": "gggg",
+        "apellidos": "hhhh"
+    },
+    "sintomas": [
+        "tos",
+        "gripa"
+    ],
+    "diagnostico": "cancer",
+    "medicamentos": [
+        {
+            "medicamento": "acetaminofen",
+            "cantidad": "1",
+            "dosis": "7",
+            "tiempo_aplicacion_dias": 1
+        }
+    ]
+}
