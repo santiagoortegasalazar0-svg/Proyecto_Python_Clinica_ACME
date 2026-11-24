@@ -1,0 +1,162 @@
+{
+    "usuarios": [
+        {
+            "identificacion": "0000",
+            "nombres": "Admin",
+            "apellidos": "Administrador",
+            "telefono": "555 000111",
+            "email": "admin@acmeclinic.com",
+            "direccion": "Cl 185 # 26 – 85",
+            "rol": "administrativo",
+            "password_hash": "bf9a545a661e5e095103952afdd18823$b791d6cd7e99847894711bdf656b4289667551ddd2035266d8d29ed359c1c308"
+        },
+        {
+            "identificacion": "5454425",
+            "nombres": "santiago",
+            "apellidos": "ortega",
+            "telefono": "45454554",
+            "email": "dasidsds@gmail.com",
+            "direccion": "frfr 12-12",
+            "rol": "medico",
+            "password_hash": "79ce6501233c5b7844696ad7e905f9ff$2136353d500808276943220c8bfede5f732aca39c0eb9fe1d232faa731bfda50"
+        },
+        {
+            "identificacion": "1096702050",
+            "nombres": "angel",
+            "apellidos": "ortega",
+            "telefono": "3157894846",
+            "email": "angel@gmail.com",
+            "direccion": "calle 33",
+            "rol": "medico",
+            "password_hash": "d70043452f507face579f26cba88bf28$578a45c284067212d1f9026d5b4f2e4555f830e8ef1e7a74db75616a45749c13"
+        },
+        {
+            "identificacion": "1111111",
+            "nombres": "gggg",
+            "apellidos": "hhhh",
+            "telefono": "3333333333",
+            "email": "gggg@gmail.com",
+            "direccion": "llllll",
+            "rol": "medico",
+            "password_hash": "c18df85678bbe54b1baf5a529392b245$fde43305e7c11ede76b90714b24be9737c91096af7ccf4b20edcc1b8e14bf08e"
+        }
+    ],
+    "pacientes": [
+        {
+            "identificacion": "56156156",
+            "nombres": "santiago",
+            "apellidos": "ortega",
+            "telefono": "315784545",
+            "email": "santiago@gmail.com",
+            "direccion": "carrera 33 26-19",
+            "genero": "masculino",
+            "estado_civil": "soltero"
+        },
+        {
+            "identificacion": "1005210150",
+            "nombres": "santiago",
+            "apellidos": "ortega",
+            "telefono": "3157894845",
+            "email": "santiago@gmail.com",
+            "direccion": "carrera 33",
+            "genero": "masculino",
+            "estado_civil": "soltero"
+        },
+        {
+            "identificacion": "105210150",
+            "nombres": "santiago",
+            "apellidos": "ortega",
+            "telefono": "3157894845",
+            "email": "santiago@gmail.com",
+            "direccion": "carrera 33",
+            "genero": "masculino",
+            "estado_civil": "soltero"
+        },
+        {
+            "identificacion": "4444444",
+            "nombres": "s",
+            "apellidos": "d",
+            "telefono": "4444444",
+            "email": "ssss@gmail.com",
+            "direccion": "cll 45",
+            "genero": "masculino",
+            "estado_civil": "soltero"
+        },
+        {
+            "identificacion": "11111111",
+            "nombres": "sss",
+            "apellidos": "ssss",
+            "telefono": "3333333333",
+            "email": "sss@gmail.com",
+            "direccion": "ggggg",
+            "genero": "femenino",
+            "estado_civil": "soltera"
+        }
+    ],
+    "consultas": [
+        {
+            "id": "20261112220024906698",
+            "fecha": "2026-11-12T22:00:24-05:00",
+            "paciente_identificacion": "1005210150",
+            "paciente": "santiago ortega",
+            "medico_identificacion": "1096702050",
+            "medico": "angel ortega",
+            "sintomas": [
+                "tos fiebre dolor de estomago",
+                "fiebre",
+                "fiebre",
+                "mucha fiebre"
+            ],
+            "diagnostico": "fiebre",
+            "medicamentos": [
+                {
+                    "medicamento": "acetaminofen",
+                    "cantidad": "10",
+                    "dosis": "2",
+                    "tiempo_aplicacion_dias": 12
+                }
+            ]
+        },
+        {
+            "id": "20261112220520122657",
+            "fecha": "2026-11-12T22:05:20-05:00",
+            "paciente_identificacion": "4444444",
+            "paciente": "s d",
+            "medico_identificacion": "1096702050",
+            "medico": "angel ortega",
+            "sintomas": [
+                "tos"
+            ],
+            "diagnostico": "tos",
+            "medicamentos": [
+                {
+                    "medicamento": "acetaminofen",
+                    "cantidad": "5",
+                    "dosis": "3",
+                    "tiempo_aplicacion_dias": 12
+                }
+            ]
+        },
+        {
+            "id": "20261113194606542696",
+            "fecha": "2026-11-13T19:46:06-05:00",
+            "paciente_identificacion": "11111111",
+            "paciente": "sss ssss",
+            "medico_identificacion": "1111111",
+            "medico": "gggg hhhh",
+            "sintomas": [
+                "tos",
+                "gripa"
+            ],
+            "diagnostico": "cancer",
+            "medicamentos": [
+                {
+                    "medicamento": "acetaminofen",
+                    "cantidad": "1",
+                    "dosis": "7",
+                    "tiempo_aplicacion_dias": 1
+                }
+            ]
+        }
+    ]
+}

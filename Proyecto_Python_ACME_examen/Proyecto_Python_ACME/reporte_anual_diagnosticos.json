@@ -1,0 +1,14 @@
+{
+    "años": {
+        "2026": {
+            "total_diagnosticos": 3,
+            "medicos_participantes": 2,
+            "pacientes_atendidos": 3,
+            "promedio_sintomas": 2.33,
+            "promedio_medicamentos": 1.0,
+            "diagnostico_mas_comun": "fiebre",
+            "primer_diagnostico": "fiebre",
+            "ultimo_diagnostico": "cancer"
+        }
+    }
+}
